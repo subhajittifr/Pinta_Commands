@@ -3,3 +3,6 @@ $ umask 0007
 $ conda activate /mnt/data0/pulsar/conda
 $ source /mnt/data0/pintav6.2test/pulsar.bashrc
 $ nohup /mnt/data0/pintav6.2test/pinta/pinta2 --gptdir /mnt/data0/pintav6.2test/gptool_infiles.V6.2/CycleX --pardir /mnt/data0/pintav6.2test/InPTA-ParFiles.V6.2/ <target directory> . >& log.out
+$ nohup /mnt/data0/pintav6.2test/pinta/pinta2 --no-gptool --pardir /mnt/data0/pintav6.2test/InPTA-ParFiles.V6.2/ /mnt/jbod0/inpta/Data/raw/Cycle42/26Jun2022/band3/ . >& logb3_2.out
+
+nohup pintav6.2 --no-gptool --pardir /mnt/data0/pintav6.2test/InPTA-ParFiles.V6.2/ /mnt/jbod0/inpta/Data/raw/Cycle42/26Jun2022/band3/ . >& logb3_2.out
